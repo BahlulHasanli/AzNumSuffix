@@ -78,13 +78,3 @@ class Suffix {
     return `${this.year} ${this.value}`;
   }
 }
-
-const suffix = new Suffix();
-
-console.log(
-  suffix
-    .suffix(263)
-    .symbol()
-    .symbolYear()
-    .get()
-);
