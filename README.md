@@ -1,7 +1,7 @@
 # SuffixClass
- Sıra və ya İl üçün son şəkilçi classı
- 
-> Bu class vasitəsi ilə daxil etdiyiniz hər hansı rəqəmin sonuna əsasən `cı, cı, cu və cü` şəkilçiləri əlavə edir. Bundan əlavə rəqəmin sonuna `.symbol()` əlavə edərək `-` işarəsi, `.symbolYear()` əlavə edərək `cı il` əlavə etmiş olursunuz.
+ Suffix class for numbers or years
+
+> This class adds `cı, cı, cu, cü` suffixes to any number you enter. Also, by adding `.symbol()` to the end of the number, you add the `-` sign, `.symbolYear ()` and `year`.
 
 ```javascript
 const suffix = new Suffix();
