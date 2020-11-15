@@ -6,6 +6,6 @@
 ```javascript
 const suffix = new Suffix();
 
-console.lgo(suffix.suffix(2020).symbol().symbolYear().get());
+console.log(suffix.suffix(2020).symbol().symbolYear().get());
 // 2020 - ci il (year)
 ```
