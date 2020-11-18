@@ -1,11 +1,20 @@
-# SuffixClass
- Suffix class for numbers or years
+# AzNumSuffix
+ This script will help to add suffixes ("cı", "ci", "cu", "cü") into numbers in Azerbaijani.
 
-> This class adds `cı, cı, cu, cü` suffixes to any number you enter. Also, by adding `.symbol()` to the end of the number, you add the `-` sign, `.symbolYear ()` and `year`.
 
-```javascript
-const suffix = new Suffix();
+# Usage
+Import like:
 
-console.log(suffix.suffix(2020).symbol().symbolYear().get());
-// 2020 - ci il (year)
-```
+`import azNumSuffix from "./azNumSuffix";`
+
+And use like: 
+
+`azNumSuffix(2020)`
+
+
+To concat another string like "il", "ay" add second parameter to function:
+
+`azNumSuffix(2019, "il")`
+
+
+### [DEMO](https://codesandbox.io/s/thirsty-feynman-4um85?file=/src/azNumSuffix.js)
