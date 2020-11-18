@@ -4,6 +4,15 @@
  ### [DEMO](https://codesandbox.io/s/thirsty-feynman-4um85?file=/src/azNumSuffix.js)
 
 # Usage
-Import like: `import azNumSuffix from "./azNumSuffix";`
-And use like: `azNumSuffix(value)`
-To concat another string like "il", "ay" add second parameter to function: `azNumSuffix(value)`
+Import like:
+
+`import azNumSuffix from "./azNumSuffix";`
+
+And use like: 
+
+`azNumSuffix(2020)`
+
+
+To concat another string like "il", "ay" add second parameter to function:
+
+`azNumSuffix(value)`
