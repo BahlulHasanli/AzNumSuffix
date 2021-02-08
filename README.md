@@ -3,6 +3,9 @@
 
 
 # Usage
+Install the package first:
+`npm i aznumsuffix`
+
 Import like:
 
 `import azNumSuffix from "./azNumSuffix";`
