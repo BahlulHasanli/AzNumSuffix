@@ -1,0 +1,19 @@
+{
+  "name": "aznumsuffix",
+  "version": "1.0.0",
+  "description": "This script will help to add suffixes (\"cı\", \"ci\", \"cu\", \"cü\") into numbers in Azerbaijani.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BahlulHasanli/AzNumSuffix.git"
+  },
+  "author": "Bahlul Hasanli & Elnur Mammadli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BahlulHasanli/AzNumSuffix/issues"
+  },
+  "homepage": "https://github.com/BahlulHasanli/AzNumSuffix#readme"
+}
